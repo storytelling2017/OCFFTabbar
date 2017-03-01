@@ -61,7 +61,9 @@ NSUInteger const FFTabBarItemCount = 5;
 
 - (void)addClickAction
 {
-    NSLog(@"addClickAction");
+    if ([self.addbtnDelegate respondsToSelector:@selector(tabbarClickAddBtn:)]) {
+        [self.addbtnDelegate tabbarClickAddBtn:self];
+    }
 }
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{

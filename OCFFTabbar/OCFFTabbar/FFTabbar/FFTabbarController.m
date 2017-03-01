@@ -15,7 +15,7 @@ NSString *const FFTabbarControllerTitle = @"controllerTitle";
 NSString *const FFTabbarNormalIcon = @"normalIcon";
 NSString *const FFTabbarSelectedIcon = @"selectedIcon";
 
-@interface FFTabbarController ()
+@interface FFTabbarController ()<FFTabBarDelegate>
 
 /**items*/
 @property(nonatomic,copy)NSArray *tabbarItems;
@@ -51,7 +51,7 @@ NSString *const FFTabbarSelectedIcon = @"selectedIcon";
     }
     
     FFTabBar *tabBar = [[FFTabBar alloc] init];
-    
+    tabBar.addbtnDelegate = self;
     /** KVC */
     [self setValue:tabBar forKey:@"tabBar"];
 
@@ -119,5 +119,14 @@ NSString *const FFTabbarSelectedIcon = @"selectedIcon";
 }
 
 #pragma mark - 自定义代理
+- (void)tabbarClickAddBtn:(FFTabBar *)tabbar
+{
+    NSLog(@"点击加号");
+}
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
+{
+    NSLog(@"tabBar -- %@",item);
+}
 
 @end

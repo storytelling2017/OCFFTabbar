@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class FFTabBar;
+
+@protocol FFTabBarDelegate <NSObject>
+
+- (void)tabbarClickAddBtn:(FFTabBar *)tabbar;
+
+@end
+
 @interface FFTabBar : UITabBar
+
+/**代理*/
+@property(nonatomic,weak)id<FFTabBarDelegate> addbtnDelegate;
 
 @end
