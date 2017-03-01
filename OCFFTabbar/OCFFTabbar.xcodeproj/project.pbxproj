@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C24374B1E6706DB000474CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24374A1E6706DB000474CB /* main.m */; };
+		3C24374E1E6706DB000474CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24374D1E6706DB000474CB /* AppDelegate.m */; };
+		3C2437541E6706DB000474CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2437521E6706DB000474CB /* Main.storyboard */; };
+		3C2437561E6706DB000474CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2437551E6706DB000474CB /* Assets.xcassets */; };
+		3C2437591E6706DB000474CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2437571E6706DB000474CB /* LaunchScreen.storyboard */; };
+		3C2437641E6706DC000474CB /* OCFFTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2437631E6706DC000474CB /* OCFFTabbarTests.m */; };
+		3C24376F1E6706DC000474CB /* OCFFTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24376E1E6706DC000474CB /* OCFFTabbarUITests.m */; };
+		3C24377F1E670DDF000474CB /* FFTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24377E1E670DDF000474CB /* FFTabbarController.m */; };
+		3C2437821E670EB5000474CB /* FFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2437811E670EB5000474CB /* FFNavigationController.m */; };
+		3C2437841E670FA8000474CB /* FFTarbarMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C2437831E670FA8000474CB /* FFTarbarMenu.plist */; };
+		3C24378C1E671237000474CB /* FFTest1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2437871E671237000474CB /* FFTest1Controller.m */; };
+		3C24378D1E671237000474CB /* FFTest1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2437881E671237000474CB /* FFTest1Controller.xib */; };
+		3C24378E1E671237000474CB /* FFTest2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24378A1E671237000474CB /* FFTest2Controller.m */; };
+		3C24378F1E671237000474CB /* FFTest2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C24378B1E671237000474CB /* FFTest2Controller.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C2437601E6706DC000474CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C24373E1E6706DB000474CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2437451E6706DB000474CB;
+			remoteInfo = OCFFTabbar;
+		};
+		3C24376B1E6706DC000474CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C24373E1E6706DB000474CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2437451E6706DB000474CB;
+			remoteInfo = OCFFTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C2437461E6706DB000474CB /* OCFFTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCFFTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C24374A1E6706DB000474CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C24374C1E6706DB000474CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C24374D1E6706DB000474CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C2437531E6706DB000474CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C2437551E6706DB000474CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2437581E6706DB000474CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C24375A1E6706DB000474CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C24375F1E6706DC000474CB /* OCFFTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCFFTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2437631E6706DC000474CB /* OCFFTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCFFTabbarTests.m; sourceTree = "<group>"; };
+		3C2437651E6706DC000474CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C24376A1E6706DC000474CB /* OCFFTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCFFTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C24376E1E6706DC000474CB /* OCFFTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCFFTabbarUITests.m; sourceTree = "<group>"; };
+		3C2437701E6706DC000474CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C24377D1E670DDF000474CB /* FFTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabbarController.h; sourceTree = "<group>"; };
+		3C24377E1E670DDF000474CB /* FFTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTabbarController.m; sourceTree = "<group>"; };
+		3C2437801E670EB5000474CB /* FFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNavigationController.h; sourceTree = "<group>"; };
+		3C2437811E670EB5000474CB /* FFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNavigationController.m; sourceTree = "<group>"; };
+		3C2437831E670FA8000474CB /* FFTarbarMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FFTarbarMenu.plist; sourceTree = "<group>"; };
+		3C2437861E671237000474CB /* FFTest1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest1Controller.h; sourceTree = "<group>"; };
+		3C2437871E671237000474CB /* FFTest1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest1Controller.m; sourceTree = "<group>"; };
+		3C2437881E671237000474CB /* FFTest1Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest1Controller.xib; sourceTree = "<group>"; };
+		3C2437891E671237000474CB /* FFTest2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest2Controller.h; sourceTree = "<group>"; };
+		3C24378A1E671237000474CB /* FFTest2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest2Controller.m; sourceTree = "<group>"; };
+		3C24378B1E671237000474CB /* FFTest2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest2Controller.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2437431E6706DB000474CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C24375C1E6706DC000474CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2437671E6706DC000474CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C24373D1E6706DB000474CB = {
+			isa = PBXGroup;
+			children = (
+				3C2437481E6706DB000474CB /* OCFFTabbar */,
+				3C2437621E6706DC000474CB /* OCFFTabbarTests */,
+				3C24376D1E6706DC000474CB /* OCFFTabbarUITests */,
+				3C2437471E6706DB000474CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2437471E6706DB000474CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2437461E6706DB000474CB /* OCFFTabbar.app */,
+				3C24375F1E6706DC000474CB /* OCFFTabbarTests.xctest */,
+				3C24376A1E6706DC000474CB /* OCFFTabbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2437481E6706DB000474CB /* OCFFTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3C2437851E671237000474CB /* Temp */,
+				3C24377C1E670DB0000474CB /* FFTabbar */,
+				3C24374C1E6706DB000474CB /* AppDelegate.h */,
+				3C24374D1E6706DB000474CB /* AppDelegate.m */,
+				3C2437521E6706DB000474CB /* Main.storyboard */,
+				3C2437551E6706DB000474CB /* Assets.xcassets */,
+				3C2437571E6706DB000474CB /* LaunchScreen.storyboard */,
+				3C24375A1E6706DB000474CB /* Info.plist */,
+				3C2437491E6706DB000474CB /* Supporting Files */,
+			);
+			path = OCFFTabbar;
+			sourceTree = "<group>";
+		};
+		3C2437491E6706DB000474CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C24374A1E6706DB000474CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C2437621E6706DC000474CB /* OCFFTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2437631E6706DC000474CB /* OCFFTabbarTests.m */,
+				3C2437651E6706DC000474CB /* Info.plist */,
+			);
+			path = OCFFTabbarTests;
+			sourceTree = "<group>";
+		};
+		3C24376D1E6706DC000474CB /* OCFFTabbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C24376E1E6706DC000474CB /* OCFFTabbarUITests.m */,
+				3C2437701E6706DC000474CB /* Info.plist */,
+			);
+			path = OCFFTabbarUITests;
+			sourceTree = "<group>";
+		};
+		3C24377C1E670DB0000474CB /* FFTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3C2437831E670FA8000474CB /* FFTarbarMenu.plist */,
+				3C24377D1E670DDF000474CB /* FFTabbarController.h */,
+				3C24377E1E670DDF000474CB /* FFTabbarController.m */,
+				3C2437801E670EB5000474CB /* FFNavigationController.h */,
+				3C2437811E670EB5000474CB /* FFNavigationController.m */,
+			);
+			path = FFTabbar;
+			sourceTree = "<group>";
+		};
+		3C2437851E671237000474CB /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				3C2437861E671237000474CB /* FFTest1Controller.h */,
+				3C2437871E671237000474CB /* FFTest1Controller.m */,
+				3C2437881E671237000474CB /* FFTest1Controller.xib */,
+				3C2437891E671237000474CB /* FFTest2Controller.h */,
+				3C24378A1E671237000474CB /* FFTest2Controller.m */,
+				3C24378B1E671237000474CB /* FFTest2Controller.xib */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2437451E6706DB000474CB /* OCFFTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2437731E6706DC000474CB /* Build configuration list for PBXNativeTarget "OCFFTabbar" */;
+			buildPhases = (
+				3C2437421E6706DB000474CB /* Sources */,
+				3C2437431E6706DB000474CB /* Frameworks */,
+				3C2437441E6706DB000474CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCFFTabbar;
+			productName = OCFFTabbar;
+			productReference = 3C2437461E6706DB000474CB /* OCFFTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C24375E1E6706DC000474CB /* OCFFTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2437761E6706DC000474CB /* Build configuration list for PBXNativeTarget "OCFFTabbarTests" */;
+			buildPhases = (
+				3C24375B1E6706DC000474CB /* Sources */,
+				3C24375C1E6706DC000474CB /* Frameworks */,
+				3C24375D1E6706DC000474CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2437611E6706DC000474CB /* PBXTargetDependency */,
+			);
+			name = OCFFTabbarTests;
+			productName = OCFFTabbarTests;
+			productReference = 3C24375F1E6706DC000474CB /* OCFFTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C2437691E6706DC000474CB /* OCFFTabbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2437791E6706DC000474CB /* Build configuration list for PBXNativeTarget "OCFFTabbarUITests" */;
+			buildPhases = (
+				3C2437661E6706DC000474CB /* Sources */,
+				3C2437671E6706DC000474CB /* Frameworks */,
+				3C2437681E6706DC000474CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C24376C1E6706DC000474CB /* PBXTargetDependency */,
+			);
+			name = OCFFTabbarUITests;
+			productName = OCFFTabbarUITests;
+			productReference = 3C24376A1E6706DC000474CB /* OCFFTabbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C24373E1E6706DB000474CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = nonoking;
+				TargetAttributes = {
+					3C2437451E6706DB000474CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 334X2ZNSWG;
+						ProvisioningStyle = Automatic;
+					};
+					3C24375E1E6706DC000474CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 334X2ZNSWG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C2437451E6706DB000474CB;
+					};
+					3C2437691E6706DC000474CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 334X2ZNSWG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C2437451E6706DB000474CB;
+					};
+				};
+			};
+			buildConfigurationList = 3C2437411E6706DB000474CB /* Build configuration list for PBXProject "OCFFTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C24373D1E6706DB000474CB;
+			productRefGroup = 3C2437471E6706DB000474CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2437451E6706DB000474CB /* OCFFTabbar */,
+				3C24375E1E6706DC000474CB /* OCFFTabbarTests */,
+				3C2437691E6706DC000474CB /* OCFFTabbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2437441E6706DB000474CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24378F1E671237000474CB /* FFTest2Controller.xib in Resources */,
+				3C2437591E6706DB000474CB /* LaunchScreen.storyboard in Resources */,
+				3C2437841E670FA8000474CB /* FFTarbarMenu.plist in Resources */,
+				3C24378D1E671237000474CB /* FFTest1Controller.xib in Resources */,
+				3C2437561E6706DB000474CB /* Assets.xcassets in Resources */,
+				3C2437541E6706DB000474CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C24375D1E6706DC000474CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2437681E6706DC000474CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2437421E6706DB000474CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24378E1E671237000474CB /* FFTest2Controller.m in Sources */,
+				3C24374E1E6706DB000474CB /* AppDelegate.m in Sources */,
+				3C24374B1E6706DB000474CB /* main.m in Sources */,
+				3C24378C1E671237000474CB /* FFTest1Controller.m in Sources */,
+				3C2437821E670EB5000474CB /* FFNavigationController.m in Sources */,
+				3C24377F1E670DDF000474CB /* FFTabbarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C24375B1E6706DC000474CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2437641E6706DC000474CB /* OCFFTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2437661E6706DC000474CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24376F1E6706DC000474CB /* OCFFTabbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C2437611E6706DC000474CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2437451E6706DB000474CB /* OCFFTabbar */;
+			targetProxy = 3C2437601E6706DC000474CB /* PBXContainerItemProxy */;
+		};
+		3C24376C1E6706DC000474CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2437451E6706DB000474CB /* OCFFTabbar */;
+			targetProxy = 3C24376B1E6706DC000474CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C2437521E6706DB000474CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2437531E6706DB000474CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C2437571E6706DB000474CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2437581E6706DB000474CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2437711E6706DC000474CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C2437721E6706DC000474CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2437741E6706DC000474CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 334X2ZNSWG;
+				INFOPLIST_FILE = OCFFTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.399820721.OCFFTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C2437751E6706DC000474CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 334X2ZNSWG;
+				INFOPLIST_FILE = OCFFTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.399820721.OCFFTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C2437771E6706DC000474CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 334X2ZNSWG;
+				INFOPLIST_FILE = OCFFTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.399820721.OCFFTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCFFTabbar.app/OCFFTabbar";
+			};
+			name = Debug;
+		};
+		3C2437781E6706DC000474CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 334X2ZNSWG;
+				INFOPLIST_FILE = OCFFTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.399820721.OCFFTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCFFTabbar.app/OCFFTabbar";
+			};
+			name = Release;
+		};
+		3C24377A1E6706DC000474CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 334X2ZNSWG;
+				INFOPLIST_FILE = OCFFTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.399820721.OCFFTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCFFTabbar;
+			};
+			name = Debug;
+		};
+		3C24377B1E6706DC000474CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 334X2ZNSWG;
+				INFOPLIST_FILE = OCFFTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.399820721.OCFFTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCFFTabbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2437411E6706DB000474CB /* Build configuration list for PBXProject "OCFFTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2437711E6706DC000474CB /* Debug */,
+				3C2437721E6706DC000474CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2437731E6706DC000474CB /* Build configuration list for PBXNativeTarget "OCFFTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2437741E6706DC000474CB /* Debug */,
+				3C2437751E6706DC000474CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C2437761E6706DC000474CB /* Build configuration list for PBXNativeTarget "OCFFTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2437771E6706DC000474CB /* Debug */,
+				3C2437781E6706DC000474CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C2437791E6706DC000474CB /* Build configuration list for PBXNativeTarget "OCFFTabbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C24377A1E6706DC000474CB /* Debug */,
+				3C24377B1E6706DC000474CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C24373E1E6706DB000474CB /* Project object */;
+}
