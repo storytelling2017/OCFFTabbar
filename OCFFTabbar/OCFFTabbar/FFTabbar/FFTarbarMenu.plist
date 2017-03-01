@@ -8,9 +8,39 @@
 		<key>controllerTitle</key>
 		<string>小工具</string>
 		<key>normalIcon</key>
-		<string>tabbar_companyInfo</string>
+		<string>tab_live</string>
 		<key>selectedIcon</key>
-		<string>tabbar_companyInfo_selected</string>
+		<string>tab_live_p</string>
+	</dict>
+	<dict>
+		<key>controllerName</key>
+		<string>FFTest1Controller</string>
+		<key>controllerTitle</key>
+		<string>小工具</string>
+		<key>normalIcon</key>
+		<string>tab_me</string>
+		<key>selectedIcon</key>
+		<string>tab_me_p</string>
+	</dict>
+	<dict>
+		<key>controllerName</key>
+		<string>FFTest1Controller</string>
+		<key>controllerTitle</key>
+		<string>小工具</string>
+		<key>normalIcon</key>
+		<string>tab_live</string>
+		<key>selectedIcon</key>
+		<string>tab_live_p</string>
+	</dict>
+	<dict>
+		<key>controllerName</key>
+		<string>FFTest1Controller</string>
+		<key>controllerTitle</key>
+		<string>小工具</string>
+		<key>normalIcon</key>
+		<string>tab_me</string>
+		<key>selectedIcon</key>
+		<string>tab_me_p</string>
 	</dict>
 </array>
 </plist>

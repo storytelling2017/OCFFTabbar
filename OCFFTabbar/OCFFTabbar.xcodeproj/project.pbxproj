@@ -21,6 +21,7 @@
 		3C24378D1E671237000474CB /* FFTest1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2437881E671237000474CB /* FFTest1Controller.xib */; };
 		3C24378E1E671237000474CB /* FFTest2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24378A1E671237000474CB /* FFTest2Controller.m */; };
 		3C24378F1E671237000474CB /* FFTest2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C24378B1E671237000474CB /* FFTest2Controller.xib */; };
+		3C2437921E671672000474CB /* FFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2437911E671672000474CB /* FFTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		3C2437891E671237000474CB /* FFTest2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest2Controller.h; sourceTree = "<group>"; };
 		3C24378A1E671237000474CB /* FFTest2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest2Controller.m; sourceTree = "<group>"; };
 		3C24378B1E671237000474CB /* FFTest2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest2Controller.xib; sourceTree = "<group>"; };
+		3C2437901E671672000474CB /* FFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabBar.h; sourceTree = "<group>"; };
+		3C2437911E671672000474CB /* FFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				3C24377E1E670DDF000474CB /* FFTabbarController.m */,
 				3C2437801E670EB5000474CB /* FFNavigationController.h */,
 				3C2437811E670EB5000474CB /* FFNavigationController.m */,
+				3C2437901E671672000474CB /* FFTabBar.h */,
+				3C2437911E671672000474CB /* FFTabBar.m */,
 			);
 			path = FFTabbar;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				3C24378E1E671237000474CB /* FFTest2Controller.m in Sources */,
 				3C24374E1E6706DB000474CB /* AppDelegate.m in Sources */,
 				3C24374B1E6706DB000474CB /* main.m in Sources */,
+				3C2437921E671672000474CB /* FFTabBar.m in Sources */,
 				3C24378C1E671237000474CB /* FFTest1Controller.m in Sources */,
 				3C2437821E670EB5000474CB /* FFNavigationController.m in Sources */,
 				3C24377F1E670DDF000474CB /* FFTabbarController.m in Sources */,

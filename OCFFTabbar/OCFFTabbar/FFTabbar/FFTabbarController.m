@@ -8,6 +8,7 @@
 
 #import "FFTabbarController.h"
 #import "FFNavigationController.h"
+#import "FFTabBar.h"
 
 NSString *const FFTabbarControllerName = @"controllerName";
 NSString *const FFTabbarControllerTitle = @"controllerTitle";
@@ -48,9 +49,16 @@ NSString *const FFTabbarSelectedIcon = @"selectedIcon";
     for (NSDictionary *item in self.tabbarItems) {
         [self addChildVc:item[FFTabbarControllerName] title:item[FFTabbarControllerTitle] image:item[FFTabbarNormalIcon] selectedImage:item[FFTabbarSelectedIcon]];
     }
+    
+    FFTabBar *tabBar = [[FFTabBar alloc] init];
+    
+    /** KVC */
+    [self setValue:tabBar forKey:@"tabBar"];
+
     if (self.childViewControllers.count == 1) {
         self.tabBar.hidden = YES;
     }
+    
 }
 
 #pragma mark - 设置数据
@@ -99,7 +107,7 @@ NSString *const FFTabbarSelectedIcon = @"selectedIcon";
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
     textAttrs[NSForegroundColorAttributeName] = [UIColor grayColor];
     NSMutableDictionary *selectTextAttrs = [NSMutableDictionary dictionary];
-    selectTextAttrs[NSForegroundColorAttributeName] = [UIColor blueColor];
+    selectTextAttrs[NSForegroundColorAttributeName] = [UIColor redColor];
     [childVc.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     [childVc.tabBarItem setTitleTextAttributes:selectTextAttrs forState:UIControlStateSelected];
     
