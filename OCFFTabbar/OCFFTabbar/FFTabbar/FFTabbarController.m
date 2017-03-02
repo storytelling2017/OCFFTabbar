@@ -36,6 +36,8 @@ NSString *const FFTabbarSelectedIcon = @"selectedIcon";
     return shareInstance;
 }
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupUI];

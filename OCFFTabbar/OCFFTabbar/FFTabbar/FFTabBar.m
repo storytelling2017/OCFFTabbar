@@ -28,11 +28,11 @@ NSUInteger const FFTabBarItemCount = 5;
     [addBtn addTarget:self action:@selector(addClickAction) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:addBtn];
     self.addBtn = addBtn;
-    CGFloat midBtnViewWidth = self.frame.size.width / count;
-    CGFloat midBtnViewHeight = self.frame.size.height + 50;
-    CGFloat midBtnViewX = (self.frame.size.width - midBtnViewWidth) * 0.5;
-    CGFloat midBtnViewY = -50;
-    addBtn.frame = CGRectMake(midBtnViewX, midBtnViewY, midBtnViewWidth, midBtnViewHeight);
+    CGFloat addBtnViewWidth = self.frame.size.width / count;
+    CGFloat addBtnViewHeight = self.frame.size.height + 50;
+    CGFloat addBtnViewX = (self.frame.size.width - addBtnViewWidth) * 0.5;
+    CGFloat addBtnViewY = -50;
+    addBtn.frame = CGRectMake(addBtnViewX, addBtnViewY, addBtnViewWidth, addBtnViewHeight);
     
     
     
